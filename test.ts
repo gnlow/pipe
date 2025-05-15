@@ -1,8 +1,4 @@
-# pipe
-pipe for ts
-
-```ts
-import { pipe } from "https://denopkg.com/gnlow/pipe"
+import { pipe } from "./mod.ts"
 
 pipe("Hello, World!",
     x => x.split(", "),
@@ -10,4 +6,3 @@ pipe("Hello, World!",
     x => x.join(", "),
     console.log,
 ) // HelloHello, World!World!
-```
